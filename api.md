@@ -3,6 +3,7 @@
 
 ## User
 
+```javascript
 “user”: {
 	“self”: href,
 	“passwordHash”: string
@@ -11,9 +12,11 @@
 	“lastName”: string,
 	“thumbnail”: base64
 }
+```
 
 ## To Do List
 
+```javascript
 "todo": {
 	“self”: href,
 	“version”: int,
@@ -34,6 +37,7 @@
 		}
 	]
 }
+```
 
 # REST API
 
